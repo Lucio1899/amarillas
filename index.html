@@ -90,17 +90,16 @@ img {
 }
 #subtitulo {
     position: fixed;
-    top: 20px; 
+    top: 20px;
     width: 100%;
     text-align: center;
     color: #ffeb3b;
-    font-size: 24px; 
     font-weight: bold;
-    opacity: 0.9;
     text-shadow: 0 0 10px black;
     padding: 0 10px;
-}
 
+    font-size: clamp(16px, 4.5vw, 22px); 
+}
 video {
     display: none;
 }
@@ -116,10 +115,10 @@ video {
 
 <div class="pantalla activa" id="p1">
     <h1>
-        Eres muy especial para mí Monzee 💛<br><br>
+        Eres muy especial para mí Monzee <br><br>
         el aprecio que te tengo es tanto que,<br>
-        a pesar de la distancia,<br>
-        espero te guste este detalle 🌼
+        a pesar de la distancia lo hice con cariño,<br>
+        espero te guste este detalle aunque no es lo mismo 🌼
     </h1>
 
     <button onclick="ver()">Quiero ver ✨</button>
@@ -183,6 +182,7 @@ let frases = [
     "Para sacarte una sonrisa 😊",
     "Y recordarte lo importante que eres 💛",
     "Siempre 💫"
+    "Mereces todo lo bueno en la vida "
 ];
 
 let i = 0;
